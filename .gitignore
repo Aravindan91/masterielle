@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+.ruff_cache/
+.mypy_cache/
+
+# Lean / Lake
+lean/.lake/
+lean/lake-packages/
+.lake/
+*.olean
+*.ilean
+*.trace
+
+# Résultats d'expériences (régénérables)
+data/out/
+*.log
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
